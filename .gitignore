@@ -4,3 +4,4 @@ __pycache__/
 hf_cache/
 *.env
 .env
+results/raw/task5_cache/
