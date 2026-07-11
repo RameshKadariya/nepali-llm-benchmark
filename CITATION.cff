@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this benchmark or its results, please cite it as below."
+title: "How Well Does AI Understand Nepali? A Multi-Task Benchmark of Large Language Models and Embedding Models on a Low-Resource Language"
+authors:
+  - family-names: "Kadariya"
+    given-names: "Ramesh"
+    affiliation: "ISMT College (University of Sunderland), Chitwan, Nepal"
+    website: "https://rameshkadariya.com.np"
+year: 2026
+repository-code: "https://github.com/RameshKadariya/nepali-llm-benchmark"
+license: MIT

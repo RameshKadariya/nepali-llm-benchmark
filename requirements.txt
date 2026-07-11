@@ -1,0 +1,12 @@
+datasets>=2.19
+transformers>=4.42
+tiktoken>=0.7
+sentencepiece>=0.2
+huggingface_hub>=0.23
+pandas>=2.0
+matplotlib>=3.8
+sacrebleu>=2.4
+sentence-transformers>=3.0
+torch>=2.2
+numpy>=1.26
+scipy>=1.11
