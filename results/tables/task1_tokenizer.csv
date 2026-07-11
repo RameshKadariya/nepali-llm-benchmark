@@ -1,0 +1,13 @@
+tokenizer,identifier,notes,fertility_ne_mean,fertility_en_mean,cost_ratio_mean,cost_ratio_median,cost_ratio_stdev,total_tokens_ne,total_tokens_en
+GPT-4o / o200k_base,o200k_base,OpenAI GPT-4o family,2.323,1.226,1.619,1.603,0.169,23624,14591
+GPT-4 / cl100k_base,cl100k_base,OpenAI GPT-4 and GPT-3.5 family,6.905,1.236,4.795,4.744,0.579,70476,14712
+GPT-2 / r50k,gpt2,Legacy English-centric baseline,10.917,1.233,7.594,7.466,0.937,111457,14679
+Llama 3.1,NousResearch/Meta-Llama-3.1-8B,Meta Llama 3 tokenizer (ungated mirror),3.745,1.236,2.599,2.569,0.279,38197,14706
+Qwen 2.5,Qwen/Qwen2.5-7B-Instruct,Alibaba Qwen family,6.531,1.259,4.461,4.424,0.578,66697,14968
+Mistral v0.3,mistralai/Mistral-7B-v0.3,Mistral family,7.094,1.377,4.434,4.382,0.551,72417,16327
+DeepSeek V3,deepseek-ai/DeepSeek-V3,DeepSeek family,4.293,1.232,2.989,2.952,0.353,43800,14662
+Gemma 2,unsloth/gemma-2-9b,Google Gemma tokenizer (ungated mirror),3.086,1.237,2.139,2.125,0.215,31478,14694
+mT5,google/mt5-base,Massively multilingual encoder-decoder,2.643,1.546,1.464,1.46,0.131,26992,18388
+NLLB-200,facebook/nllb-200-distilled-600M,"Translation-specialized, 200 languages",1.951,1.399,1.191,1.19,0.12,19799,16608
+BLOOM,bigscience/bloom-560m,Multilingual open model,1.725,1.244,1.183,1.179,0.114,17549,14821
+NepBERTa,NepBERTa/NepBERTa,Nepali-specific BERT,2.211,4.085,0.465,0.46,0.063,22600,48865
