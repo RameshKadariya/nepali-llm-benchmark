@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.4.18)  12 JUL 2026 03:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.4.18)  12 JUL 2026 05:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -423,64 +423,167 @@ Package hyperref Info: Link coloring OFF on input line 9.
 \openout3 = `paper.out'.
 
 
-Underfull \vbox (badness 1199) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf
 -dist/fonts/enc/dvips/base/8r.enc}
 
 
 ]
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 5
-6.
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 6
+3.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-Underfull \hbox (badness 4341) in paragraph at lines 58--59
-[]\OT1/ptm/b/n/10 Belebele \OT1/ptm/m/n/10 [[]] (CC-BY-SA 4.0): the \OT1/pcr/m/
+) [2]
+Underfull \hbox (badness 1755) in paragraph at lines 76--77
+[]\OT1/ptm/m/n/10 Four prin-ci-ples gov-erned the de-sign. \OT1/ptm/b/n/10 Open
+-ness\OT1/ptm/m/n/10 : only
+ []
+
+
+Underfull \hbox (badness 6268) in paragraph at lines 79--80
+[]\OT1/ptm/m/n/10 Two openly li-censed sources sup-ply all eval-u-a-tion
+ []
+
+
+Underfull \hbox (badness 7308) in paragraph at lines 79--80
+\OT1/ptm/m/n/10 data. Full con-struc-tion de-tails are in the repos-i-tory
+ []
+
+
+Underfull \hbox (badness 3199) in paragraph at lines 81--82
+[]\OT1/ptm/b/n/10 Belebele \OT1/ptm/m/n/10 [[]] (CC-BY-SA 4.0). The \OT1/pcr/m/
 n/10 npi_Deva \OT1/ptm/m/n/10 and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
 []\OT1/ptm/b/n/10 NepaliSentiment \OT1/ptm/m/n/10 (Hug-ging-Face:
  []
 
 
-Underfull \hbox (badness 1502) in paragraph at lines 60--61
-\OT1/ptm/m/n/10 Nepali user-generated so-cial me-dia text, pri-mar-ily stock
+Underfull \hbox (badness 2941) in paragraph at lines 83--84
+\OT1/pcr/m/n/10 Shushant/NepaliSentiment\OT1/ptm/m/n/10 ). This cor-pus con-tai
+ns
  []
 
-LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 7
-4.
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
+
+Underfull \hbox (badness 4832) in paragraph at lines 90--91
+[]\OT1/pcr/m/n/10 retrieval_corpus_ne.jsonl\OT1/ptm/m/n/10 : all 488 unique
+ []
+
+
+Underfull \hbox (badness 7468) in paragraph at lines 91--92
+[]\OT1/pcr/m/n/10 retrieval_queries.jsonl\OT1/ptm/m/n/10 : 200 queries with
+ []
+
+[3]
+LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 1
+05.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 74.
- [2]
-<figures/task1_cost_ratio.png, id=141, 650.43pt x 397.485pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 105.
+
+Underfull \hbox (badness 2653) in paragraph at lines 116--117
+\OT1/ptm/m/n/10 Six em-bed-ding mod-els are eval-u-ated lo-cally on CPU:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
+\OT1/ptm/m/n/10 multilingual-e5-small and multilingual-e5-base [[]],
+ []
+
+[4]
+<figures/task1_cost_ratio.png, id=235, 650.43pt x 397.485pt>
 File: figures/task1_cost_ratio.png Graphic file (type png)
 <use figures/task1_cost_ratio.png>
-Package pdftex.def Info: figures/task1_cost_ratio.png  used on input line 114.
+Package pdftex.def Info: figures/task1_cost_ratio.png  used on input line 166.
 (pdftex.def)             Requested size: 252.0pt x 153.99957pt.
-<figures/task2_qa_drop.png, id=145, 722.7pt x 397.485pt>
-File: figures/task2_qa_drop.png Graphic file (type png)
-<use figures/task2_qa_drop.png>
-Package pdftex.def Info: figures/task2_qa_drop.png  used on input line 143.
-(pdftex.def)             Requested size: 252.0pt x 138.60022pt.
- [3 <./figures/task1_cost_ratio.png>]
-Overfull \hbox (10.81323pt too wide) in paragraph at lines 195--208
+<figures/task1_fertility.png, id=237, 650.43pt x 397.485pt>
+File: figures/task1_fertility.png Graphic file (type png)
+<use figures/task1_fertility.png>
+Package pdftex.def Info: figures/task1_fertility.png  used on input line 173.
+(pdftex.def)             Requested size: 252.0pt x 153.99957pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (12.00621pt too wide) in paragraph at lines 190--202
  [][] 
  []
 
-<figures/task5_retrieval_r1.png, id=164, 686.565pt x 433.62pt>
+<figures/task2_qa_drop.png, id=241, 722.7pt x 397.485pt>
+File: figures/task2_qa_drop.png Graphic file (type png)
+<use figures/task2_qa_drop.png>
+Package pdftex.def Info: figures/task2_qa_drop.png  used on input line 206.
+(pdftex.def)             Requested size: 252.0pt x 138.60022pt.
+[5 <./figures/task1_cost_ratio.png> <./figures/task1_fertility.png>]
+Overfull \hbox (2.22672pt too wide) in paragraph at lines 228--238
+ [][] 
+ []
+
+<figures/task3_sentiment.png, id=257, 650.43pt x 361.35pt>
+File: figures/task3_sentiment.png Graphic file (type png)
+<use figures/task3_sentiment.png>
+Package pdftex.def Info: figures/task3_sentiment.png  used on input line 242.
+(pdftex.def)             Requested size: 252.0pt x 139.99962pt.
+[6 <./figures/task2_qa_drop.png> <./figures/task3_sentiment.png>]
+Underfull \hbox (badness 1596) in paragraph at lines 269--270
+\OT1/ptm/m/n/10 only 15.0% mono-lin-gually while reach-ing 52.5% cross-
+ []
+
+
+Overfull \hbox (21.3224pt too wide) in paragraph at lines 278--291
+ [][] 
+ []
+
+<figures/task5_retrieval_r1.png, id=271, 686.565pt x 433.62pt>
 File: figures/task5_retrieval_r1.png Graphic file (type png)
 <use figures/task5_retrieval_r1.png>
-Package pdftex.def Info: figures/task5_retrieval_r1.png  used on input line 212
+Package pdftex.def Info: figures/task5_retrieval_r1.png  used on input line 295
 .
 (pdftex.def)             Requested size: 252.0pt x 159.15329pt.
-[4 <./figures/task2_qa_drop.png>]
+
+Underfull \vbox (badness 1122) has occurred while \output is active []
+
+ [7 <./figures/task5_retrieval_r1.png>] [8]
+** WARNING: Ignoring useless \section in Appendix (line 332).
+
+Underfull \hbox (badness 10000) in paragraph at lines 333--334
+[]\OT1/ptm/m/n/10 All eval-u-a-tion prompts, ver-ba-tim as used,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 333--334
+\OT1/ptm/m/n/10 in both lan-guages, are stored in the repos-i-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 333--334
+\OT1/ptm/m/n/10 tory source files (\OT1/pcr/m/n/10 src/task2_qa_api.py\OT1/ptm/
+m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 333--334
+\OT1/pcr/m/n/10 src/task3_sentiment_api.py\OT1/ptm/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 333--334
+\OT1/pcr/m/n/10 src/task4_translation_api.py\OT1/ptm/m/n/10 ). The En-glish
+ []
+
+
+Underfull \hbox (badness 2126) in paragraph at lines 333--334
+\OT1/ptm/m/n/10 com-pre-hen-sion tem-plate is re-pro-duced here; the Nepali
+ []
+
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <9> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 338.
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -496,36 +599,38 @@ Before submitting the final camera ready copy, remember to:
 Package balance Warning: You have called \balance in second column
 (balance)                Columns might not be balanced.
 
-[5 <./figures/task5_retrieval_r1.png>] (./paper.aux)
+[9] (./paper.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `paper.out' has not changed.
-(rerunfilecheck)             Checksum: 7195F77782E4D7C20DCDBE8B5C0FE953;3720.
+(rerunfilecheck)             Checksum: 9534B269FAB3EAB477B47405CF808B54;7770.
  ) 
 Here is how much of TeX's memory you used:
- 10127 strings out of 476106
- 159580 string characters out of 5793933
- 1947975 words of memory out of 5000000
- 31963 multiletter control sequences out of 15000+600000
+ 10196 strings out of 476106
+ 160797 string characters out of 5793933
+ 1946975 words of memory out of 5000000
+ 32001 multiletter control sequences out of 15000+600000
  599523 words of font info for 108 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 75i,10n,79p,2017b,446s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
-tmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on paper.pdf (5 pages, 415715 bytes).
+ 75i,10n,79p,2522b,446s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/
+ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/urw/times/utmri8a.pfb>
+Output written on paper.pdf (9 pages, 593799 bytes).
 PDF statistics:
- 249 PDF objects out of 1000 (max. 8388607)
- 209 compressed objects within 3 object streams
- 56 named destinations out of 1000 (max. 500000)
- 168 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 372 PDF objects out of 1000 (max. 8388607)
+ 319 compressed objects within 4 object streams
+ 87 named destinations out of 1000 (max. 500000)
+ 314 words of extra memory for PDF output out of 10000 (max. 10000000)
 
