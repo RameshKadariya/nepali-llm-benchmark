@@ -1,0 +1,76 @@
+[
+ {
+  "model": "Llama 3.3 70B",
+  "api_id": "llama-3.3-70b-versatile",
+  "provider": "groq",
+  "method": "generation",
+  "acc_ne": 0.8382,
+  "n_ne": 173,
+  "abstain_ne": 5,
+  "acc_en": 0.9722,
+  "n_en": 180,
+  "abstain_en": 0,
+  "drop_en_to_ne": 0.134
+ },
+ {
+  "model": "Llama 3.1 8B",
+  "api_id": "llama-3.1-8b-instant",
+  "provider": "groq",
+  "method": "generation",
+  "acc_ne": 0.405,
+  "n_ne": 200,
+  "abstain_ne": 71,
+  "acc_en": 0.84,
+  "n_en": 200,
+  "abstain_en": 0,
+  "drop_en_to_ne": 0.435
+ },
+ {
+  "model": "Llama 4 Scout 17B",
+  "api_id": "meta-llama/llama-4-scout-17b-16e-instruct",
+  "provider": "groq",
+  "method": "generation",
+  "acc_ne": 0.845,
+  "n_ne": 200,
+  "abstain_ne": 3,
+  "acc_en": 0.96,
+  "n_en": 200,
+  "abstain_en": 0,
+  "drop_en_to_ne": 0.115
+ },
+ {
+  "model": "GPT-OSS 120B",
+  "api_id": "openai/gpt-oss-120b",
+  "provider": "groq",
+  "method": "generation",
+  "acc_ne": 0.865,
+  "n_ne": 200,
+  "abstain_ne": 0,
+  "acc_en": 0.95,
+  "n_en": 200,
+  "abstain_en": 0,
+  "drop_en_to_ne": 0.085
+ },
+ {
+  "model": "Gemini 3.5 Flash",
+  "api_id": "gemini-flash-latest",
+  "provider": "gemini",
+  "method": "generation",
+  "acc_en": 1.0,
+  "n_en": 21,
+  "abstain_en": 0
+ },
+ {
+  "model": "Gemini 3.1 Flash Lite",
+  "api_id": "gemini-flash-lite-latest",
+  "provider": "gemini",
+  "method": "generation",
+  "acc_ne": 0.895,
+  "n_ne": 200,
+  "abstain_ne": 0,
+  "acc_en": 0.97,
+  "n_en": 200,
+  "abstain_en": 0,
+  "drop_en_to_ne": 0.075
+ }
+]
