@@ -13,31 +13,31 @@
   "model": "Llama 3.1 8B",
   "paired_n": 200,
   "acc_en": 0.84,
-  "acc_ne": 0.405,
-  "drop": 0.435,
-  "discordant_en_only": 90,
+  "acc_ne": 0.57,
+  "drop": 0.27,
+  "discordant_en_only": 57,
   "discordant_ne_only": 3,
-  "mcnemar_p": 2.71e-23
+  "mcnemar_p": 6.25e-14
  },
  {
   "model": "Llama 4 Scout 17B",
   "paired_n": 200,
   "acc_en": 0.96,
-  "acc_ne": 0.845,
-  "drop": 0.115,
-  "discordant_en_only": 25,
+  "acc_ne": 0.86,
+  "drop": 0.1,
+  "discordant_en_only": 22,
   "discordant_ne_only": 2,
-  "mcnemar_p": 5.65e-06
+  "mcnemar_p": 3.59e-05
  },
  {
   "model": "Llama 3.3 70B",
   "paired_n": 178,
   "acc_en": 0.9719,
-  "acc_ne": 0.8427,
-  "drop": 0.1292,
-  "discordant_en_only": 23,
+  "acc_ne": 0.8708,
+  "drop": 0.1011,
+  "discordant_en_only": 18,
   "discordant_ne_only": 0,
-  "mcnemar_p": 2.38e-07
+  "mcnemar_p": 7.63e-06
  },
  {
   "model": "GPT-OSS 120B",

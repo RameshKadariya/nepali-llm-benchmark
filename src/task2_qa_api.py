@@ -104,9 +104,18 @@ def call_model(provider, model_id, prompt):
     raise ValueError(provider)
 
 
+DEVANAGARI_DIGITS = {"\u0967": 1, "\u0968": 2, "\u0969": 3, "\u096a": 4}
+
+
 def parse_answer(text):
-    m = re.search(r"[1-4]", text)
-    return int(m.group()) if m else None
+    """First option number in the reply; accepts ASCII 1-4 and
+    Devanagari numerals (some models answer in the script of the
+    question)."""
+    m = re.search(r"[1-4\u0967-\u096a]", text)
+    if not m:
+        return None
+    ch = m.group()
+    return DEVANAGARI_DIGITS.get(ch, int(ch) if ch.isdigit() else None)
 
 
 def load_items(lang):

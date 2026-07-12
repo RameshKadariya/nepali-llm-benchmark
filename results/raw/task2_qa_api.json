@@ -4,39 +4,39 @@
   "api_id": "llama-3.3-70b-versatile",
   "provider": "groq",
   "method": "generation",
-  "acc_ne": 0.8436,
+  "acc_ne": 0.8715,
   "n_ne": 179,
-  "abstain_ne": 5,
+  "abstain_ne": 0,
   "acc_en": 0.9724,
   "n_en": 181,
   "abstain_en": 0,
-  "drop_en_to_ne": 0.1288
+  "drop_en_to_ne": 0.1009
  },
  {
   "model": "Llama 3.1 8B",
   "api_id": "llama-3.1-8b-instant",
   "provider": "groq",
   "method": "generation",
-  "acc_ne": 0.405,
+  "acc_ne": 0.57,
   "n_ne": 200,
-  "abstain_ne": 71,
+  "abstain_ne": 0,
   "acc_en": 0.84,
   "n_en": 200,
   "abstain_en": 0,
-  "drop_en_to_ne": 0.435
+  "drop_en_to_ne": 0.27
  },
  {
   "model": "Llama 4 Scout 17B",
   "api_id": "meta-llama/llama-4-scout-17b-16e-instruct",
   "provider": "groq",
   "method": "generation",
-  "acc_ne": 0.845,
+  "acc_ne": 0.86,
   "n_ne": 200,
-  "abstain_ne": 3,
+  "abstain_ne": 0,
   "acc_en": 0.96,
   "n_en": 200,
   "abstain_en": 0,
-  "drop_en_to_ne": 0.115
+  "drop_en_to_ne": 0.1
  },
  {
   "model": "GPT-OSS 120B",

@@ -40,11 +40,15 @@ NLLB-200. Tokenizer design, not the Devanagari script, drives the cost.
 | Model | n | Acc EN | Acc NE | Drop | McNemar p |
 | --- | --- | --- | --- | --- | --- |
 | Qwen2.5-0.5B (local) | 37 | 46.0 | 29.7 | 16.2 | 0.18 |
-| Llama 3.1 8B | 200 | 84.0 | 40.5 | 43.5 | 2.7e-23 |
-| Llama 4 Scout 17B | 200 | 96.0 | 84.5 | 11.5 | 5.7e-06 |
-| Llama 3.3 70B | 178 | 97.2 | 84.3 | 12.9 | 2.4e-07 |
+| Llama 3.1 8B | 200 | 84.0 | 57.0 | 27.0 | 6.3e-14 |
+| Llama 4 Scout 17B | 200 | 96.0 | 86.0 | 10.0 | 3.6e-05 |
+| Llama 3.3 70B | 178 | 97.2 | 87.1 | 10.1 | 7.6e-06 |
 | GPT-OSS 120B | 200 | 95.0 | 86.5 | 8.5 | 4.9e-04 |
 | Gemini 3.1 Flash Lite | 200 | 97.0 | 89.5 | 7.5 | 6.1e-05 |
+
+Note: answers given in Devanagari numerals (for example ।२। style
+digits like ४ for 4) are accepted as valid; Llama 3.1 8B replied with
+Devanagari numerals on 71 of 200 Nepali items.
 
 **Task 3, sentiment on native informal Nepali (chance 33.3%).** Best is
 GPT-OSS 120B at 67.1% accuracy (n=158); Llama 8B reaches only 51.9%.
