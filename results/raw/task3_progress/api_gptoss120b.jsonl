@@ -152,3 +152,7 @@
 {"id": "sn0151", "pred": "positive", "gold": "positive", "correct": true, "raw": "सकारात्मक"}
 {"id": "sn0152", "pred": "negative", "gold": "neutral", "correct": false, "raw": "नकारात्मक"}
 {"id": "sn0153", "pred": "negative", "gold": "neutral", "correct": false, "raw": "नकारात्मक"}
+{"id": "sn0155", "pred": "neutral", "gold": "neutral", "correct": true, "raw": "तटस्थ"}
+{"id": "sn0157", "pred": "negative", "gold": "negative", "correct": true, "raw": "नकारात्मक"}
+{"id": "sn0160", "pred": "negative", "gold": "negative", "correct": true, "raw": "नकारात्मक"}
+{"id": "sn0158", "pred": "negative", "gold": "negative", "correct": true, "raw": "नकारात्मक"}

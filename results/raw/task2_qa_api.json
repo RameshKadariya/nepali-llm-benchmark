@@ -4,13 +4,13 @@
   "api_id": "llama-3.3-70b-versatile",
   "provider": "groq",
   "method": "generation",
-  "acc_ne": 0.8382,
-  "n_ne": 173,
+  "acc_ne": 0.8436,
+  "n_ne": 179,
   "abstain_ne": 5,
-  "acc_en": 0.9722,
-  "n_en": 180,
+  "acc_en": 0.9724,
+  "n_en": 181,
   "abstain_en": 0,
-  "drop_en_to_ne": 0.134
+  "drop_en_to_ne": 0.1288
  },
  {
   "model": "Llama 3.1 8B",

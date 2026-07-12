@@ -1,0 +1,5 @@
+model,api_id,accuracy,macro_f1,n,abstain
+Llama 3.1 8B,llama-3.1-8b-instant,0.519,0.4579,210,0
+Llama 4 Scout 17B,meta-llama/llama-4-scout-17b-16e-instruct,0.5857,0.4835,210,0
+GPT-OSS 120B,openai/gpt-oss-120b,0.6709,0.6497,158,0
+Gemini 3.1 Flash Lite,gemini-flash-lite-latest,0.6111,0.5582,90,0

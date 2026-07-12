@@ -1,0 +1,42 @@
+[
+ {
+  "model": "Llama 3.1 8B",
+  "api_id": "llama-3.1-8b-instant",
+  "ne2en_chrf++": 53.91,
+  "ne2en_bleu": 28.86,
+  "ne2en_bleu_tokenize": "13a",
+  "ne2en_n": 150,
+  "en2ne_chrf++": 30.57,
+  "en2ne_bleu": 7.71,
+  "en2ne_bleu_tokenize": "flores200",
+  "en2ne_n": 149
+ },
+ {
+  "model": "Llama 4 Scout 17B",
+  "api_id": "meta-llama/llama-4-scout-17b-16e-instruct",
+  "ne2en_chrf++": 65.49,
+  "ne2en_bleu": 40.48,
+  "ne2en_bleu_tokenize": "13a",
+  "ne2en_n": 149,
+  "en2ne_chrf++": 49.07,
+  "en2ne_bleu": 27.29,
+  "en2ne_bleu_tokenize": "flores200",
+  "en2ne_n": 150
+ },
+ {
+  "model": "GPT-OSS 120B",
+  "api_id": "openai/gpt-oss-120b",
+  "ne2en_chrf++": 63.58,
+  "ne2en_bleu": 35.03,
+  "ne2en_bleu_tokenize": "13a",
+  "ne2en_n": 7
+ },
+ {
+  "model": "Gemini 3.1 Flash Lite",
+  "api_id": "gemini-flash-lite-latest",
+  "ne2en_chrf++": 71.75,
+  "ne2en_bleu": 45.77,
+  "ne2en_bleu_tokenize": "13a",
+  "ne2en_n": 2
+ }
+]

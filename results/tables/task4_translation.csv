@@ -1,0 +1,5 @@
+model,api_id,en2ne_bleu,en2ne_bleu_tokenize,en2ne_chrf++,en2ne_n,ne2en_bleu,ne2en_bleu_tokenize,ne2en_chrf++,ne2en_n
+Llama 3.1 8B,llama-3.1-8b-instant,7.71,flores200,30.57,149,28.86,13a,53.91,150
+Llama 4 Scout 17B,meta-llama/llama-4-scout-17b-16e-instruct,27.29,flores200,49.07,150,40.48,13a,65.49,149
+GPT-OSS 120B,openai/gpt-oss-120b,,,,,35.03,13a,63.58,7
+Gemini 3.1 Flash Lite,gemini-flash-lite-latest,,,,,45.77,13a,71.75,2

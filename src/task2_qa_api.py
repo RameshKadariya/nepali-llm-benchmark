@@ -42,6 +42,8 @@ API_MODELS = {
     "gptoss120b": ("groq", "openai/gpt-oss-120b", "GPT-OSS 120B"),
     "qwen32b": ("groq", "qwen/qwen3-32b", "Qwen3 32B"),
     "geminiflash": ("gemini", "gemini-flash-latest", "Gemini 3.5 Flash"),
+    "geminilite": ("gemini", "gemini-flash-lite-latest",
+                   "Gemini 3.1 Flash Lite"),
 }
 
 PROMPT = {
@@ -124,24 +126,42 @@ def run(model_key, lang, max_items):
     todo = [it for it in items if it["id"] not in done]
     print(f"=== {name} [{lang}] done={len(done)} todo={len(todo)}")
 
-    with open(prog_path, "a", encoding="utf-8") as f:
-        for n, it in enumerate(todo[:max_items]):
-            prompt = PROMPT[lang].format(
-                passage=it["passage"], question=it["question"],
-                o1=it["options"][0], o2=it["options"][1],
-                o3=it["options"][2], o4=it["options"][3])
-            text = call_model(provider, model_id, prompt)
-            pred = parse_answer(text)
-            rec = {"id": it["id"], "pred": pred,
-                   "gold": it["correct_answer_num"],
-                   "correct": pred == it["correct_answer_num"],
-                   "raw": text[:200]}
-            f.write(json.dumps(rec, ensure_ascii=False) + "\n")
-            f.flush()
-            if (n + 1) % 20 == 0:
-                print(f"  {len(done) + n + 1}/{len(items)}")
-            time.sleep(0.3)
+    def make_record(it):
+        prompt = PROMPT[lang].format(
+            passage=it["passage"], question=it["question"],
+            o1=it["options"][0], o2=it["options"][1],
+            o3=it["options"][2], o4=it["options"][3])
+        text = call_model(provider, model_id, prompt)
+        pred = parse_answer(text)
+        return {"id": it["id"], "pred": pred,
+                "gold": it["correct_answer_num"],
+                "correct": pred == it["correct_answer_num"],
+                "raw": text[:200]}
+
+    workers = 3 if provider == "gemini" else 5
+    run_parallel(todo[:max_items], make_record, prog_path, workers)
     print("window complete")
+
+
+
+
+def run_parallel(todo, make_record, prog_path, workers=5):
+    """Process items concurrently, appending JSON records as they finish."""
+    import threading
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+    lock = threading.Lock()
+    done_count = 0
+    with open(prog_path, "a", encoding="utf-8") as f:
+        with ThreadPoolExecutor(max_workers=workers) as ex:
+            futs = {ex.submit(make_record, it): it for it in todo}
+            for fut in as_completed(futs):
+                rec = fut.result()
+                with lock:
+                    f.write(json.dumps(rec, ensure_ascii=False) + "\n")
+                    f.flush()
+                    done_count += 1
+                    if done_count % 25 == 0:
+                        print(f"  +{done_count}/{len(todo)}")
 
 
 def merge():

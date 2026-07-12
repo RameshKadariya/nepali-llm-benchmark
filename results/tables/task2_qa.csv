@@ -1,0 +1,2 @@
+model,acc_en,acc_ne,drop_en_to_ne,hf_id,n_en,n_ne
+Qwen2.5-0.5B-Instruct,0.42,0.2973,0.1227,Qwen/Qwen2.5-0.5B-Instruct,200,37

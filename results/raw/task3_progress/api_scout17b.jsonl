@@ -203,3 +203,8 @@
 {"id": "sn0202", "pred": "negative", "gold": "negative", "correct": true, "raw": "नकारात्मक"}
 {"id": "sn0203", "pred": "negative", "gold": "negative", "correct": true, "raw": "नकारात्मक"}
 {"id": "sn0204", "pred": "positive", "gold": "positive", "correct": true, "raw": "सकारात्मक"}
+{"id": "sn0205", "pred": "negative", "gold": "neutral", "correct": false, "raw": "नकारात्मक"}
+{"id": "sn0206", "pred": "positive", "gold": "positive", "correct": true, "raw": "सकारात्मक"}
+{"id": "sn0207", "pred": "positive", "gold": "positive", "correct": true, "raw": "सकारात्मक"}
+{"id": "sn0208", "pred": "positive", "gold": "neutral", "correct": false, "raw": "सकारात्मक"}
+{"id": "sn0209", "pred": "positive", "gold": "positive", "correct": true, "raw": "सकारात्मक"}
